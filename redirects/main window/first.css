@@ -1,0 +1,321 @@
+
+/*----------------------------------- */
+*{
+    text-decoration: none;
+    margin: 0px;
+    
+}
+/*----------------------------------- */
+body{
+    --nav-height: 80px;
+    
+    /* padding-top: var(--nav-height); */
+}
+/*----------------------------------- */
+
+
+
+
+
+
+
+/*----------------------------------- */
+/*
+.top-button{
+    float: right;
+    color: rgba(255, 187, 0, 0.76);
+    width: 100%;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.top-btn{
+    float: right;
+    margin: auto  60px;
+    display: flex;
+}*/
+
+/*----------------------------------- */
+
+
+
+
+
+
+
+
+/*----------------------------------- */
+/* control navigation bar */
+.nav{
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    margin-left: 4px;
+    height: var(--nav-height);
+    width: 100%;
+    box-shadow: 0 0 10px rgba(7, 217, 245, 0.536);
+    transition: transform 1s;
+    justify-content: space-between;
+}
+.nav--hidden{
+    transform: translateY(-100px);
+    box-shadow: none
+}
+/* control navigation bar */
+/*----------------------------------- */
+
+
+
+
+
+
+
+
+
+/*----------------------------------- */
+/* 1st goldfizz */
+.gold1{
+    font-size: 20px;
+    color: rgb(22, 215, 237);
+    margin-top: 5px;
+}
+/* 1st goldfizz */
+/*----------------------------------- */
+
+
+
+
+
+
+/*----------------------------------- */
+/* 1st button */
+.button1{
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.button1_link {
+    color: white;
+    float: right;
+}
+/* 1st button */
+/*----------------------------------- */
+
+
+
+
+
+
+/*----------------------------------- */
+/* sign up button */
+.signB{
+    background-color: rgb(18, 141, 155);
+    padding: 10px;
+    border-color: rgb(9, 134, 134);
+    font-size: larger;
+}
+
+/* 'signP:hover a' means when you hover on the button the link in it should do the below command  */
+.signB:hover a{
+    color: black;
+}
+/* sign up button */
+/*----------------------------------- */
+
+
+
+
+
+/*----------------------------------- */
+/* Login button */
+.loginB{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
+
+.loginB:hover a{
+    color: rgb(104, 104, 104);
+}
+.log{
+    color: rgb(177, 174, 174);
+}
+/* Login button */
+/*----------------------------------- */
+
+
+
+
+
+/*----------------------------------- */
+/* 2nd button */
+.btn2{ 
+    position: absolute;
+    /* top: 50%; */
+    left: 43%;
+    transform: translate(0, -50);
+}
+/* 2nd button */
+/*----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------- */
+/* heading */
+.head_com{
+    margin-top: 140px;
+}
+.head {
+    color: rgb(64, 178, 193);
+    font-size: 6rem;
+    font-family: Georgia, 'Times New Roman', Times, Regular;
+    text-align: center;
+}
+/* words under heading */
+.underh{
+    text-align: center;
+}
+.und_h {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.und_h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+/*----------------------------------- */
+
+
+
+
+
+
+/*----------------------------------- */
+/* buttons under heading */
+.personal_but {
+    align-items: center;
+    border-width: 0ch;
+    background-color: rgb(9, 134, 134);
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 18px;
+}
+.commercial_but {
+    border-width: 0ch;
+    background-color: rgb(9, 134, 134);
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 18px;
+}
+.sign{
+    color: rgb(239, 239, 239);
+}
+.sign:hover{
+    color: rgb(46, 43, 43);
+}
+/* buttons under heading */
+/*----------------------------------- */
+
+
+
+
+
+
+/*----------------------------------- */
+/* freetrial.. */
+.freetrial{
+    font-size: 18px;
+    color: white; 
+    text-align: center; 
+    margin-top: 30px;
+}
+/*----------------------------------- */
+
+
+
+
+
+/*----------------------------------- */
+/* div for first row images */
+ .firstrow-pics{
+    margin: 50px auto;
+    display: flex;
+    background: linear-gradient(to right, #000000, rgb(24, 24, 24));
+    border-radius: 30px;
+    padding: 60px 0;
+    width: 90%;
+    border: 1px solid rgba(7,217,245, 0.105);
+    box-shadow: 0 0 10px rgba(7,217,245, 0.524);
+ }
+
+ .pics1{
+    /* position: relative; */
+    /* left: 13%; */
+    /* transform: translate(0, -50); */
+    margin: auto;
+ }
+
+ .pics1:hover {
+     opacity: 0.7;
+}
+
+.gallery-text {
+    color: rgb(125, 189, 189);
+    font-size: 35px;
+    /* text-align: center; */
+    margin: auto;
+}
+ 
+.cover{
+    width: 80%;
+    float: left;
+    margin: 4px;
+}
+
+.Rock{
+    width: 80%;
+    margin: 4px;
+    float: left;
+}
+
+.rap{
+    margin: 15px;
+    width: 80%;
+    float: left;
+}
+
+.hip-hop{
+    width: 80%;
+    margin: 4px;
+    float: left;
+}
+
+.music{
+    margin: 4px;
+    width: 80%;
+    float: left;
+}
+
+
+
+
+
+
+
+/* pic inbtwn the next head */
+.breakpic{
+    margin-right: 0px;
+    position: relative;
+    bottom: 1cm;
+    z-index: 0;
+}

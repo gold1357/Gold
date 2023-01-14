@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(music-dark.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    margin: 5% 50%;
+    /* background: rgb(220, 220, 220); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    background-position: center;
+    border-radius: 5px;
+    border: 1px solid #e48108;
+    overflow: hidden;
+}
+.btn-box{
+    width: 420px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 30px 10px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 20px 80px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 15px;
+    color: #0f770b;
+}
+#btn{
+    top: 0;
+    left: 210px;
+    position: absolute;
+    width: 210px;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to right, #e48108, #efbc55);
+    transition: 0.7s;
+}
+.social-icon{
+    margin: 5px auto;
+    text-align: center;
+}
+.social-icon img{
+   width: 90px; 
+   margin: 0 12px;
+   box-shadow: 0 0 20px #ff6224c0;
+   cursor: pointer;
+   border-radius: 50%;
+}
+.input-group{
+    top: 230px;
+    position: absolute;
+    width: 300px;
+    transition: 0.7s;
+    left: 20px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    color: white;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #e48108, #efbc55);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 39px 10px 40px 10px;
+}
+span{
+    color: rgb(134, 77, 20);
+    font-size: 18px;
+    bottom: 80px;
+    position: absolute;
+    
+}
+#register{
+    right: 40px;
+    position: absolute;
+}
+#login {
+    left: 600px;
+    position: absolute;
+}
+.if{
+    color: #e48108;
+    margin-top: 10px;
+}
+.if a{
+    color: rgb(32, 166, 219);
+    font-size: 20px;
+    text-decoration: none;
+}

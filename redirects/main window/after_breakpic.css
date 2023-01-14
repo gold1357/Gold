@@ -1,0 +1,119 @@
+/* heading soundtrack */
+.popping {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: rgb(64, 178, 193);
+}
+
+
+
+/* next paragraph control */
+.undhead {
+    letter-spacing: 1px;
+    color: rgb(145, 144, 144);
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+ .assurance {
+    font-size: 30px;
+}
+
+.copyright{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* .parent_two {
+    margin-left: 90px;
+    position: relative;
+    top: 1cm;
+} */
+
+/* .desert {
+    width: 30%;
+    float: left;
+    padding: 8px;
+    height: 6cm;
+        position: relative;
+        top: 0.0cm;
+} */
+
+/* .ra:hover .text1 {
+    opacity: 0.8;
+    color: rgb(220, 159, 110);
+    animation: alternate-reverse;
+}
+
+.dj {
+    width: 30%;
+    float: left;
+    padding: 8px;
+}
+
+.game {
+    width: 30%;
+    float: left;
+    padding: 8px;
+}
+
+.parent_three {
+    margin-left: 90px;
+    margin-top: 7.8cm;
+}
+
+.kitchen {
+    width: 30%;
+    float: left;
+    padding: 8px;
+}
+
+.tune {
+    width: 30%;
+    float: left;
+    padding: 8px;
+}
+
+.smile {
+    width: 30%;
+    float: left;
+    padding: 8px;
+} */
+/* youtube text */
+/* .text1 {
+    position: absolute;
+    top: 4.8cm;
+    left: 0.55cm;
+    font-size: 40px;
+    color: rgb(223, 205, 205);
+} */
+/* pic and text after third row */
+/* .after_thirdrow {
+    position: relative;
+    top: 10cm;
+} */
+/* picture */
+ /* .pic {
+    position: relative;
+    left: 3cm;
+    width: 35%;
+    height: 14cm;
+    z-index: 1;
+    float: left;
+    opacity: 0.8;
+}  */
+/* ready set pop */
+/* .tex {
+    float: left;
+    width: 30%;
+    color: rgb(227, 227, 227);
+    font-size: 50px;
+    position: relative;
+    right: 10.4cm;
+    top: 5cm;
+    z-index: 1;
+} */
