@@ -1,32 +1,4 @@
-/* heading soundtrack */
-.popping {
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    position: relative;
-    bottom: 50px;
-    color: rgb(64, 178, 193);
-}
 
-
-
-/* next paragraph control */
-.undhead {
-    letter-spacing: 1px;
-    color: rgb(145, 144, 144);
-    text-align: center;
-    position: relative;
-    bottom: 70px;
-}
-
- .assurance {
-    font-size: 30px;
-}
-
-.copyright{
-    font-size: 30px;
-    text-align: center;
-}
 
 /* .parent_two {
     margin-left: 90px;
@@ -117,3 +89,9 @@
     top: 5cm;
     z-index: 1;
 } */
+
+
+
+@media (max-width: 500px) {
+    
+}

@@ -90,6 +90,7 @@ span {
   /* opacity: 0; */
   /* visibility: hidden; */
   overflow: hidden;
+  background: #0c192a;
 }
 
 .display .center {
@@ -110,7 +111,7 @@ span {
   height: 3rem;
   position: fixed;
   top: 3rem;
-  right: 3rem;
+  right: 2rem;
   z-index: 200;
   display: flex;
   flex-direction: column;
@@ -143,12 +144,12 @@ span {
 }
 
 .change .menu {
-  right: 10rem;
+  right: 18rem;
 }
 
 .menu span {
   position: absolute;
-  left: 4rem;
+  left: 3rem;
   width: 8rem;
   height: 3rem;
   background-color: blue;
@@ -172,6 +173,7 @@ span {
   top: 50%;
   left: -2rem;
   transform: translateY(-50%);
+  color: blue;
 }
 
 .change .menu:hover span {
@@ -273,11 +275,11 @@ span {
 
 /*-------------------------------------------------------- */
 .sidebar {
-  width: 20rem;
+  width: 25rem;
   height: 100vh;
   position: fixed;
   top: 0;
-  right: -20rem;
+  right: -50rem;
   background-color: aliceblue;
   transition: right 0.5s;
   z-index: 100;
@@ -367,13 +369,13 @@ span {
   /* margin-bottom: 3rem; */
 }
 
-.underline {
+/* .underline {
   width: 21rem;
   height: 0.3rem;
   display: grid;
-  /* align-items: center; */
-  background-color: rgb(109, 0, 181);
-}
+   align-items: center;
+   background-color: rgb(109, 0, 181); 
+} */
 
 .about-us-img-wrapper {
   position: relative;
@@ -382,17 +384,6 @@ span {
   height: 100%;
 }
 /*------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------------------------*/
 .team-heading {
@@ -447,7 +438,6 @@ span {
   position: absolute;
   bottom: 0rem;
   opacity: 0.03;
-  /* visibility: hidden; */
   padding: 1rem;
   text-shadow: 0 0.3rem 0.6rem rgba(22, 139, 182, 0.6);
   transition: all 0.4s;
@@ -505,14 +495,6 @@ span {
 }
 /*------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
 /*------------------------------------------------------*/
 .contact {
   width: 100%;
@@ -548,7 +530,6 @@ span {
   width: 65%;
   background-color: rgb(208, 208, 208);
   padding: 3rem 20rem 20rem 20rem;
-
 }
 .contact-right form {
   width: 100%;
@@ -665,24 +646,9 @@ span {
 }
 /*------------------------------------------------------*/
 
-
-
-
-
-
 /*------------------------------------------------------*/
 
-
-
 /*------------------------------------------------------*/
-
-
-
-
-
-
-
-
 
 /*------------------------------------------------------*/
 @media (max-width: 1000px) {
@@ -705,7 +671,7 @@ span {
     width: 15rem;
   }
   .social-media i {
-    margin: auto 1rem;
+    margin: auto 0.7rem;
   }
   .team {
     padding: 0 5rem 8rem 5rem;
@@ -720,16 +686,20 @@ span {
     position: absolute;
     top: 70rem;
   }
-  .card-wrapper {
-    display: inline-block;
-  }
   .card {
     width: 30rem;
     height: 40rem;
   }
+  .card-wrapper {
+    display: inline-block;
+  }
+  .card-img-wrapper img{
+    opacity: .4;
+  }
 
   .card-info {
     font-size: 3rem;
+    opacity: 1;
   }
   .card-info h2 {
     font-size: 1.9rem;
@@ -764,24 +734,25 @@ span {
     width: 100%;
     justify-content: center;
   }
-  .footer-content{
+  .footer-content {
     width: 70%;
   }
-  .copyright{
+  .copyright {
     order: 2;
     margin-bottom: 2rem;
     font-size: 1rem;
   }
-  .social-list a{
+  .social-list a {
     margin: 0 1rem;
     margin-left: 3rem;
   }
 }
 
-
-
-
 @media (max-width: 700px) {
+    .change .menu:hover span{
+        opacity: 0;
+        visibility: hidden;
+    }
   .team {
     padding: 0 5rem 8rem 5rem;
   }
@@ -789,51 +760,90 @@ span {
     width: 20rem;
     height: 25rem;
   }
-    .field {
-    width: 30rem;
-  padding: 0rem 0rem 0rem 0rem;
-
-  }
-  .input-group textarea {
-    max-width: 55rem;
-  }
-  .submit-btn{
-    width: 35rem;
-  }
-  .footer{
-    background-color: #176ce2;
-  }
-  .contact-right{
-    width: 2rem;
-    /* margin-right: 2rem; */
-  }
-  .contact{
-    margin: auto;
-  }
-   .card {
-    width: 33rem;
-    height: 42rem;
-  }
-    .card-info {
+  /* .card {
+    width: 25rem;
+    height: 33rem;
+  } */
+  .card-info {
     font-size: 5rem;
+    opacity: 1;
+    visibility: visible;
   }
   .card-info h2 {
     font-size: 2rem;
+
+  }
+  .contact-wrapper {
+    width: 33rem;
+    height: 45rem;
+  }
+  .contact-right {
+    width: 100vw;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .contact-right form {
+    width: 100%;
+  }
+  .scroll-btn {
+    right: 0;
+  }
+  .field {
+    width: 25rem;
+  }
+  .input-group textarea {
+    max-width: 55rem;
+  } 
+  .submit-btn {
+    width: 20rem;
+  }
+  .footer {
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-content {
+    width: 70%;
+  }
+  .copyright {
+    order: 2;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .social-list a {
+    margin: 0 .3rem;
+    margin-left: 4rem;
+  }
+  .scroll-btn{
+    right: 6rem;
   }
 }
 
+@media (max-width: 600px) {
+    .contact-wrapper {
+    width: 30rem;
+    height: 45rem;
+  }
+
+}
+
 @media (max-width: 500px) {
+    .change .menu {
+  right: 9rem;
+}
   .banner p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .banner button {
     width: 10rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .sidebar {
     z-index: 100;
+    width: 14rem;
   }
 
   .card-info {
@@ -847,20 +857,135 @@ span {
   }
 
   .card-wrapper {
-    width: 20rem;
+    width: 23rem;
     /* height: 5rem; */
   }
   .card {
     height: 30rem;
-    width: 20rem;
+    width: 18rem;
   }
   .contact-wrapper {
-    width: 10rem;
-  }
-  .contact-left {
-    width: 0;
+    width: 23rem;
+    height: 45rem;
   }
   .contact-right {
+    width: 100vw;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .contact-right form {
     width: 100%;
+  }
+  .scroll-btn {
+    right: 0;
+  }
+  .field {
+    width: 13rem;
+  }
+
+  .input-group text-area {
+    width: 10rem;
+  }
+  .submit-btn {
+    width: 17rem;
+  }
+  .footer {
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    z-index: 100;
+    margin-top: 15rem;
+  }
+  .footer-content {
+    width: 70%;
+  }
+  .copyright {
+    order: 2;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .social-list a {
+    margin: 0 1rem;
+    margin-left: 3rem;
+  }
+  .scroll-btn{
+    right: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .change .menu {
+  right: 9rem;
+}
+    .banner button{
+        font-size: 1.3rem;
+    }
+  .team-heading{
+    /* font-size: 3rem; */
+    padding: 2rem 0 0 0;
+  }
+  .card-wrapper{
+    width: 20rem;
+  }
+  .card {
+    width: 15rem;
+    height: 20rem;
+  }
+  .contact-wrapper {
+    width: 18rem;
+    height: 45rem;
+  }
+  .contact-left {
+    width: 0rem;
+  }
+  .contact-right {
+    width: 100vw;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .contact-right form {
+    width: 100%;
+  }
+  .scroll-btn {
+    right: 0;
+  }
+  .contact {
+    height: 100vh;
+  }
+  .field {
+    width: 13rem;
+  }
+  .input-group text-area {
+    width: 10rem;
+  }
+  .submit-btn {
+    width: 15rem;
+  }
+  .footer {
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    z-index: 100;
+margin-top: 15rem;
+  }
+  .footer-content {
+    width: 70%;
+  }
+  .copyright {
+    order: 1;
+    margin-bottom: 2rem;
+    font-size: .8rem;
+  }
+  .social-list a {
+    margin: 0 1rem;
+    margin-left: 1rem;
+  }
+    .scroll-btn{
+    right: 1rem;
+    z-index: 100;
+    width: 2rem;
+    height: 2rem;
   }
 }

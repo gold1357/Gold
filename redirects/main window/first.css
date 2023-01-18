@@ -1,23 +1,15 @@
-
 /*----------------------------------- */
-*{
-    text-decoration: none;
-    margin: 0px;
-    
+* {
+  text-decoration: none;
+  margin: 0px;
 }
 /*----------------------------------- */
-body{
-    --nav-height: 80px;
-    
-    /* padding-top: var(--nav-height); */
+body {
+  --nav-height: 80px;
+
+  /* padding-top: var(--nav-height); */
 }
 /*----------------------------------- */
-
-
-
-
-
-
 
 /*----------------------------------- */
 /*
@@ -36,286 +28,309 @@ body{
 
 /*----------------------------------- */
 
-
-
-
-
-
-
-
 /*----------------------------------- */
 /* control navigation bar */
-.nav{
-    z-index: 1;
-    position: fixed;
-    background-color: rgb(38, 37, 37);
-    display: flex;
-    margin-left: 4px;
-    height: var(--nav-height);
-    width: 100%;
-    box-shadow: 0 0 10px rgba(7, 217, 245, 0.536);
-    transition: transform 1s;
-    justify-content: space-between;
+.nav {
+  z-index: 1;
+  position: fixed;
+  background-color: rgb(38, 37, 37);
+  display: flex;
+  margin-left: 4px;
+  height: var(--nav-height);
+  width: 100%;
+  box-shadow: 0 0 10px rgba(7, 217, 245, 0.536);
+  transition: transform 1s;
+  justify-content: space-between;
 }
-.nav--hidden{
-    transform: translateY(-100px);
-    box-shadow: none
+.nav--hidden {
+  transform: translateY(-100px);
+  box-shadow: none;
 }
 /* control navigation bar */
 /*----------------------------------- */
 
-
-
-
-
-
-
-
-
 /*----------------------------------- */
 /* 1st goldfizz */
-.gold1{
-    font-size: 20px;
-    color: rgb(22, 215, 237);
-    margin-top: 5px;
+.gold1 {
+  font-size: 20px;
+  color: rgb(22, 215, 237);
+  margin-top: 5px;
 }
 /* 1st goldfizz */
 /*----------------------------------- */
-
-
-
-
-
 
 /*----------------------------------- */
 /* 1st button */
-.button1{
-    margin-right: 8px;
-    margin-top: 5px;
+.button1 {
+  margin-right: 8px;
+  margin-top: 5px;
 }
 
 .button1_link {
-    color: white;
-    float: right;
+  color: white;
+  float: right;
 }
 /* 1st button */
 /*----------------------------------- */
 
-
-
-
-
-
 /*----------------------------------- */
 /* sign up button */
-.signB{
-    background-color: rgb(18, 141, 155);
-    padding: 10px;
-    border-color: rgb(9, 134, 134);
-    font-size: larger;
+.signB {
+  background-color: rgb(18, 141, 155);
+  padding: 10px;
+  border-color: rgb(9, 134, 134);
+  font-size: larger;
 }
 
 /* 'signP:hover a' means when you hover on the button the link in it should do the below command  */
-.signB:hover a{
-    color: black;
+.signB:hover a {
+  color: black;
 }
 /* sign up button */
 /*----------------------------------- */
 
-
-
-
-
 /*----------------------------------- */
 /* Login button */
-.loginB{
-    background-color: transparent;
-    border: 0;
-    font-size: 20px;
+.loginB {
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
 }
 
-.loginB:hover a{
-    color: rgb(104, 104, 104);
+.loginB:hover a {
+  color: rgb(104, 104, 104);
 }
-.log{
-    color: rgb(177, 174, 174);
+.log {
+  color: rgb(177, 174, 174);
 }
 /* Login button */
 /*----------------------------------- */
 
-
-
-
-
 /*----------------------------------- */
 /* 2nd button */
-.btn2{ 
-    position: absolute;
-    /* top: 50%; */
-    left: 43%;
-    transform: translate(0, -50);
+.btn2 {
+  position: absolute;
+  /* top: 50%; */
+  left: 43%;
+  transform: translate(0, -50);
 }
 /* 2nd button */
 /*----------------------------------- */
-
-
-
-
-
-
-
-
-
-
 
 /*----------------------------------- */
 /* heading */
-.head_com{
-    margin-top: 140px;
+.head_com {
+  margin-top: 170px;
 }
 .head {
-    color: rgb(64, 178, 193);
-    font-size: 6rem;
-    font-family: Georgia, 'Times New Roman', Times, Regular;
-    text-align: center;
+  color: rgb(64, 178, 193);
+  font-size: 6rem;
+  font-family: Georgia, "Times New Roman", Times, Regular;
+  text-align: center;
 }
 /* words under heading */
-.underh{
-    text-align: center;
+.underh {
+  text-align: center;
 }
 .und_h {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
 }
 .und_h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 19px;
 }
 /*----------------------------------- */
-
-
-
-
-
-
-/*----------------------------------- */
-/* buttons under heading */
-.personal_but {
-    align-items: center;
-    border-width: 0ch;
-    background-color: rgb(9, 134, 134);
-    padding: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    font-size: 18px;
-}
-.commercial_but {
-    border-width: 0ch;
-    background-color: rgb(9, 134, 134);
-    padding: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    font-size: 18px;
-}
-.sign{
-    color: rgb(239, 239, 239);
-}
-.sign:hover{
-    color: rgb(46, 43, 43);
-}
-/* buttons under heading */
-/*----------------------------------- */
-
-
-
-
-
-
-/*----------------------------------- */
-/* freetrial.. */
-.freetrial{
-    font-size: 18px;
-    color: white; 
-    text-align: center; 
-    margin-top: 30px;
-}
-/*----------------------------------- */
-
-
-
-
 
 /*----------------------------------- */
 /* div for first row images */
- .firstrow-pics{
-    margin: 50px auto;
-    display: flex;
-    background: linear-gradient(to right, #000000, rgb(24, 24, 24));
-    border-radius: 30px;
-    padding: 60px 0;
-    width: 90%;
-    border: 1px solid rgba(7,217,245, 0.105);
-    box-shadow: 0 0 10px rgba(7,217,245, 0.524);
- }
+.firstrow-pics {
+  margin: 50px auto;
+  display: flex;
+  background: linear-gradient(to right, #000000, rgb(24, 24, 24));
+  border-radius: 30px;
+  padding: 60px 0;
+  width: 90%;
+  border: 1px solid rgba(7, 217, 245, 0.105);
+  box-shadow: 0 0 10px rgba(7, 217, 245, 0.524);
+}
 
- .pics1{
-    /* position: relative; */
-    /* left: 13%; */
-    /* transform: translate(0, -50); */
-    margin: auto;
- }
+.pics1 {
+  /* position: relative; */
+  /* left: 13%; */
+  /* transform: translate(0, -50); */
+  margin: auto;
+}
 
- .pics1:hover {
-     opacity: 0.7;
+.pics1:hover {
+  opacity: 0.7;
 }
 
 .gallery-text {
-    color: rgb(125, 189, 189);
-    font-size: 35px;
-    /* text-align: center; */
-    margin: auto;
-}
- 
-.cover{
-    width: 80%;
-    float: left;
-    margin: 4px;
+  color: rgb(125, 189, 189);
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
 }
 
-.Rock{
-    width: 80%;
-    margin: 4px;
-    float: left;
+.cover {
+  width: 80%;
+  float: left;
+  margin: 4px;
 }
 
-.rap{
-    margin: 15px;
-    width: 80%;
-    float: left;
+.Rock {
+  width: 80%;
+  margin: 4px;
+  float: left;
 }
 
-.hip-hop{
-    width: 80%;
-    margin: 4px;
-    float: left;
+.rap {
+  margin: 15px;
+  width: 80%;
+  float: left;
 }
 
-.music{
-    margin: 4px;
-    width: 80%;
-    float: left;
+.hip-hop {
+  width: 80%;
+  margin: 4px;
+  float: left;
 }
 
-
-
-
-
-
+.music {
+  margin: 4px;
+  width: 80%;
+  float: left;
+}
 
 /* pic inbtwn the next head */
-.breakpic{
-    margin-right: 0px;
+.breakpic {
+  margin-right: 0px;
+  position: relative;
+  bottom: 1cm;
+  z-index: 0;
+}
+
+/* heading soundtrack */
+.popping {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: rgb(64, 178, 193);
+}
+
+/* next paragraph control */
+.undhead {
+  letter-spacing: 1px;
+  color: rgb(145, 144, 144);
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.assurance {
+  font-size: 30px;
+}
+
+.copyright {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .head {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .und_h {
+    font-size: 0.8rem;
+  }
+  .und_h2 {
+    font-size: 0.8rem;
+  }
+  .firstrow-pics {
+    display: inline-block;
+    width: 20rem;
+    margin-left: 4rem;
+  }
+  .pics1 {
+    display: block;
+    margin: 2rem 3rem;
+    padding: 0 0 0 1rem;
+  }
+  .popping {
+    font-size: 3rem;
+    padding: 4rem 0 0 0;
+  }
+}
+@media (max-width: 400px) {
+  .nav {
+    display: inline-block;
+    height: 11rem;
     position: relative;
-    bottom: 1cm;
-    z-index: 0;
+  }
+  .nav--hidden {
+    transform: translateY(-180px);
+    box-shadow: none;
+  }
+  .gold1 {
+    text-align: center;
+    /* background: #64300084; */
+  }
+  #button {
+    display: inline-block;
+  }
+  .button1 {
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 1rem 0 0 0;
+  }
+  .button1_link {
+    float: none;
+  }
+  .signB {
+    background: #0d8884a6;
+    width: 100vw;
+    letter-spacing: 0.2rem;
+    border:2px solid rgb(9, 134, 134);
+  }
+  .loginB {
+    width: 100vw;
+    height: 3rem;
+    background: #0d8884a6;
+    border:2px solid rgb(9, 134, 134);
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+  }
+  .head_com {
+    margin-top: 12rem;
+  }
+  .head {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .und_h {
+    font-size: 0.6rem;
+  }
+  .und_h2 {
+    font-size: 0.6rem;
+  }
+  .firstrow-pics {
+    width: 15rem;
+  }
+  .pics1 {
+    width: 10rem;
+    margin: 5rem auto;
+  }
+  .popping {
+    font-size: 2.3rem;
+  }
+  .undhead {
+    display: none;
+  }
 }
