@@ -270,8 +270,9 @@ body {
 @media (max-width: 400px) {
   .nav {
     display: inline-block;
-    height: 11rem;
+    height: 12rem;
     position: relative;
+    z-index: 0;
   }
   .nav--hidden {
     transform: translateY(-180px);
@@ -308,7 +309,8 @@ body {
     letter-spacing: 0.2rem;
   }
   .head_com {
-    margin-top: 12rem;
+    margin-top: 15rem;
+    z-index: 100;
   }
   .head {
     font-size: 2rem;
