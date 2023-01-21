@@ -12,21 +12,6 @@ body {
 /*----------------------------------- */
 
 /*----------------------------------- */
-/*
-.top-button{
-    float: right;
-    color: rgba(255, 187, 0, 0.76);
-    width: 100%;
-    font-size: 30px;
-    border-radius: 5px;
-}
-.top-btn{
-    float: right;
-    margin: auto  60px;
-    display: flex;
-}*/
-
-/*----------------------------------- */
 
 /*----------------------------------- */
 /* control navigation bar */
@@ -98,7 +83,8 @@ body {
 }
 
 .loginB:hover a {
-  color: rgb(104, 104, 104);
+  color: black;
+
 }
 .log {
   color: rgb(177, 174, 174);
@@ -241,6 +227,223 @@ body {
   text-align: center;
 }
 
+
+
+@media (max-width: 800px) {
+  .nav {
+    display: inline-block;
+    height: 12rem;
+    position: relative;
+    z-index: 100;
+  }
+  .nav--hidden {
+    transform: translateY(-180px);
+    box-shadow: none;
+  }
+  .gold1 {
+    text-align: center;
+    /* background: #64300084; */
+  }
+  #button {
+    display: inline-block;
+  }
+  .button1 {
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 1rem 0 0 0;
+  }
+  .button1_link {
+    float: none;
+  }
+  .signB {
+    background: #0d8884a6;
+    width: 100vw;
+    letter-spacing: 0.2rem;
+    border:2px solid rgb(9, 134, 134);
+  }
+  .loginB {
+    width: 100vw;
+    height: 3rem;
+    background: #0d8884a6;
+    border:2px solid rgb(9, 134, 134);
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+  }
+  .head_com {
+    margin-top: 20rem;
+    /* z-index: 100; */
+  }
+  .head {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .und_h {
+    font-size: 1.2rem;
+  }
+  .und_h2 {
+    font-size: 1.2rem;
+  }
+  .firstrow-pics {
+    width: 18rem;
+    display: inline-block;
+    margin: auto 11rem;
+  }
+  .pics1 {
+    width: 19rem;
+    margin: 5rem auto;
+  }
+  .popping {
+    font-size: 2.3rem;
+  }
+  .undhead {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .nav {
+    display: inline-block;
+    height: 12rem;
+    position: relative;
+    z-index: 100;
+  }
+  .nav--hidden {
+    transform: translateY(-180px);
+    box-shadow: none;
+  }
+  .gold1 {
+    text-align: center;
+    /* background: #64300084; */
+  }
+  #button {
+    display: inline-block;
+  }
+  .button1 {
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 1rem 0 0 0;
+  }
+  .button1_link {
+    float: none;
+  }
+  .signB {
+    background: #0d8884a6;
+    width: 100vw;
+    letter-spacing: 0.2rem;
+    border:2px solid rgb(9, 134, 134);
+  }
+  .loginB {
+    width: 100vw;
+    height: 3rem;
+    background: #0d8884a6;
+    border:2px solid rgb(9, 134, 134);
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+  }
+  .head_com {
+    margin-top: 20rem;
+    /* z-index: 100; */
+  }
+  .head {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .und_h {
+    font-size: 1rem;
+  }
+  .und_h2 {
+    font-size: 1rem;
+  }
+  .firstrow-pics {
+    width: 18rem;
+    display: inline-block;
+    margin: auto 9rem;
+  }
+  .pics1 {
+    width: 19rem;
+    margin: 5rem auto;
+  }
+  .popping {
+    font-size: 2.3rem;
+  }
+  .undhead {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    display: inline-block;
+    height: 12rem;
+    position: relative;
+    z-index: 100;
+  }
+  .nav--hidden {
+    transform: translateY(-180px);
+    box-shadow: none;
+  }
+  .gold1 {
+    text-align: center;
+    background: #64300084;
+  }
+  #button {
+    display: inline-block;
+  }
+  .button1 {
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 1rem 0 0 0;
+  }
+  .button1_link {
+    float: none;
+  }
+  .signB {
+    background: #0d8884a6;
+    width: 100vw;
+    letter-spacing: 0.2rem;
+    border:2px solid rgb(9, 134, 134);
+  }
+  .loginB {
+    width: 100vw;
+    height: 3rem;
+    background: #0d8884a6;
+    border:2px solid rgb(9, 134, 134);
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+  }
+  .head_com {
+    margin-top: 20rem;
+    z-index: 0;
+  }
+  .head {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .und_h {
+    font-size: 0.9rem;
+  }
+  .und_h2 {
+    font-size: 0.9rem;
+  }
+  .firstrow-pics {
+    width: 16rem;
+    display: inline-block;
+    margin: auto 8rem;
+
+  }
+  .pics1 {
+    width: 15rem;
+    margin: 8rem auto;
+  }
+  .popping {
+    font-size: 2.3rem;
+  }
+  .undhead {
+    display: none;
+  }
+}
+
 @media (max-width: 500px) {
   .head {
     font-size: 2.5rem;
@@ -267,6 +470,7 @@ body {
     padding: 4rem 0 0 0;
   }
 }
+
 @media (max-width: 400px) {
   .nav {
     display: inline-block;

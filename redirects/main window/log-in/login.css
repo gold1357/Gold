@@ -29,6 +29,7 @@
     position: relative;
     box-shadow: 0 0 30px 10px #ff61241f;
     border-radius: 30px;
+    background-color: #999;
 }
 .toggle-btn{
     padding: 20px 80px;
@@ -135,4 +136,164 @@ span{
 #register {
     left: 600px;
     position: absolute;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .hero{
+          background-image: linear-gradient( rgba(17, 78, 223, 0.6), rgba(6, 19, 53, 0.907));
+
+    }
+    .form-box{
+        width: 500px;
+        margin: 6rem 4rem;
+            background-image: linear-gradient(rgba(2, 25, 34, 0.8), rgba(7, 73, 143, 0.6));
+            border: 1px solid rgba(3, 98, 240, 0.891);
+;
+    }
+    .btn-box{
+        width: 340px;
+        display: flex;
+    }
+    .toggle-btn{
+        padding: 20px 70px;
+    }
+    .toggle-btn:active{
+        color: #77360b;
+    }
+    #btn{
+        visibility: hidden;
+        width: 180px;
+    }
+    .social-media i{
+        width: 3rem;
+        height: 3rem;
+    }
+    .input-group{
+        width: 300px;
+    }
+    .check-box{
+        visibility: visible;
+    }
+    span{
+        font-size: 17px;
+    }
+}
+@media (max-width: 600px) {
+    .form-box{
+        width: 400px;
+        margin: 6rem 4rem;
+            background-image: linear-gradient(rgba(2, 25, 34, 0.8), rgba(7, 73, 143, 0.6));
+            border: 1px solid rgba(3, 98, 240, 0.891);
+;
+    }
+    .btn-box{
+        width: 340px;
+        display: flex;
+    }
+    .toggle-btn{
+        padding: 20px 70px;
+    }
+    .toggle-btn:active{
+        color: #77360b;
+    }
+    #btn{
+        visibility: hidden;
+        width: 180px;
+    }
+    .social-media i{
+        width: 3rem;
+        height: 3rem;
+    }
+    .input-group{
+        width: 280px;
+    }
+    .check-box{
+        visibility: visible;
+    }
+    span{
+        font-size: 17px;
+    }
+}
+@media (max-width: 500px) {
+    .hero{
+        width: 100%;
+        height: 90rem;
+    }
+    .form-box{
+        width: 400px;
+        margin: 6rem 1rem;
+            background-image: linear-gradient(rgba(2, 25, 34, 0.8), rgba(7, 73, 143, 0.6));
+            border: 1px solid rgba(3, 98, 240, 0.891);
+;
+    }
+    .btn-box{
+        width: 340px;
+        display: flex;
+    }
+    .toggle-btn{
+        padding: 20px 70px;
+    }
+    .toggle-btn:active{
+        color: #77360b;
+    }
+    #btn{
+        visibility: hidden;
+        width: 180px;
+    }
+    .social-media i{
+        width: 3rem;
+        height: 3rem;
+    }
+    .input-group{
+        width: 280px;
+    }
+    .check-box{
+        visibility: visible;
+    }
+    span{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 400px) {
+        .hero{
+        width: 100%;
+        height: 90rem;
+    }
+    .form-box{
+        width: 300px;
+        margin: 2rem 1rem;
+            background-image: linear-gradient(rgba(2, 25, 34, 0.8), rgba(7, 73, 143, 0.6));
+            border: 1px rgba(240, 129, 3, 0.84);
+    }
+    .btn-box{
+        width: 280px;
+        display: flex;
+    }
+    .toggle-btn{
+        padding: 10px 50px;
+    }
+    .toggle-btn:active{
+        color: #77360b;
+    }
+    #btn{
+        visibility: hidden;
+        width: 150px;
+    }
+    .social-media i{
+        width: 2rem;
+        height: 2rem;
+    }
+    .input-group{
+        width: 200px;
+    }
+    .check-box{
+        visibility: visible;
+    }
+    span{
+        font-size: 15px;
+    }
 }
